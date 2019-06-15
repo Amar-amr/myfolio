@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Google Icon Popins-->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css"  media="screen,projection"/>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> 
+
+<!--Fav icon-->
+<link rel="icon" href="images/favicon.ico">
+<style>
+
+.transform {
+
+  transition: all .5s;
+    bottom: -1000px;
+}
+
+.transform-active {
+    bottom: 0;
+}
+
+
+	</style>
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+<nav>
+  <div class="nav-wrapper container"> <a href="index.html" class="brand-logo left"> <img src="images/amr-logo.svg" alt="AMARLAL LOGO" width="40px"/>
+    <p> Amar Lal <span>UI/UX Designer</span> </p>
+    </a>
+	  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa fa-bars"></i></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="index.html">Home</a></li>
+      <li class="line-bw dropdown-trigger" href="#!" data-target="dropdown1">
+		  About <i class="fa fa-angle-down"></i>
+		  
+		</li>
+      <li class="line-bw"><a href="#works">Works</a></li>
+      <li class="line-bw"><a href="blog.html">Blog</a></li>
+      <li class="line-bw"><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+	
+	<ul id="dropdown1" class="dropdown-content">
+		  <li><a href="#myFolio" class="drp-btn-">My Folio</a></li>
+		  <li><a href="#skills">Skills</a></li>
+		  </ul>
+
+	
+	<ul id="mobile-demo" class="sidenav">
+      <li><a href="index.html">Home</a></li>
+      <li class="line-bw dropdown-trigger" href="#!" data-target="dropdown2">
+		  <a>About</a> 
+		</li>
+      <li class="line-bw"><a href="#works">Works</a></li>
+      <li class="line-bw"><a href="blog.html">Blog</a></li>
+      <li class="line-bw"><a href="#contact">Contact</a></li>
+    </ul>
+	<ul id="dropdown2" class="dropdown-content">
+		  <li><a href="#myFolio" class="drp-btn-">My Folio</a></li>
+		  <li><a href="#skills">Skills</a></li>
+		  </ul>
+	
+<main class="container-fluid">
+  <section class="banner" id="home">
+    <div class="profile-card"> <img src="images/pro-pic-500x348.jpg" class="img-responsive" alt="AMARLAL PROFILE">
+      <div class="brand-name">
+        <p>Amar Lal<span>UI/UX Designer</span></p>
+      </div>
+      <div class="social-icons"> <a href="https://www.behance.net/amarlal" target="_blank"><i class="fa fa-behance"></i></a> <a href="https://www.facebook.com/AMR116" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://www.instagram.com/masked_jocker/" target="_blank"><i class="fa fa-instagram"></i></a> </div>
+      <div class="clearfix"></div>
+    </div>
+    <a class="arrow-down" href="#myFolio"><img src="images/arrow-down-34x34.png"></a> </section>
+  <section class="my-folio" id="myFolio">
+    <div class="container">
+      <h1>My Folio</h1>
+      <p>To work in a challenging Environment that would lead to the fulfillment of both corporate and personal goals. I aspire to occupy a reasonable and challenging position in software field as a Web/UI , Graphics Designer And 2D Animator, currently looking to continue my career progression in a progressive firm that will allow me to utilize my unique skills in the field of technology and Design.</p>
+      <div class="row margin-50 left-right-clr">
+        <div class="col s12 l6">
+          <fieldset class="progress-block">
+            <legend><i class="fa fa-pencil"></i> Design</legend>
+            <div class="bubble-box right-max"> 90% </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%"> </div>
+            </div>
+          </fieldset>
+          <fieldset class="progress-block">
+            <legend><i class="fa fa-code"></i> HTML/CSS</legend>
+            <div class="bubble-box right-low"> 70% </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"> </div>
+            </div>
+          </fieldset>
+          <fieldset class="progress-block">
+            <legend><i class="fa fa-paint-brush"></i> Illustrations</legend>
+            <div class="bubble-box right-medium"> 80% </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"> </div>
+            </div>
+          </fieldset>
+        </div>
+        <div class="col s12 l6">
+          <div class="xprnc-card">
+            <h3>Education</h3>
+            <p><strong>Graduation (2013-2016):</strong> Bachelor in Multimedia Communication & Journalism
+              Vismayam College of Art & Media (University of Calicut)</p>
+            <h3>Work Experience</h3>
+            <p><strong>Currently Working :</strong> UI/UX Designer , Renaissance Technologies Pvt. Ltd
+              (2017 Apr Onwards)</p>
+            <a href="images/arrow-down-34x34.png" download class="btn btn-black pull-right">Download CV</a> </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills" id="skills">
+    <div class="row">
+      <div class="col s12 m6 l6 creative">
+        <h2 class="ylw-clr">Creative</h2>
+        <p>UI/Ux Designing</p>
+        <p>Illustration</p>
+        <p>Photomanipulation</p>
+        <p>Print Deisgn</p>
+        <p>Logo & Branding</p>
+      </div>
+      <div class="col s12 m6 l6 analytics">
+        <h2>Analytic</h2>
+        <p>Adobe [Dw,Ps,Ai,FL,Pr,Ae]</p>
+        <p>Visual Studio</p>
+        <p>HTML,CSS</p>
+        <p>Android XML</p>
+        <p>Javascript</p>
+      </div>
+    </div>
+  </section>
+  <section class="works" id="works">
+    <div class="container">
+      <h1>Works</h1>
+      <div class="row">
+        <div class="col l3 m6 s12 works-block">
+          <p>Website Design</p>
+          <img src="images/works-1.jpg" class="img-responsive" alt="FOLIO AMARLAL"> </div>
+        <div class="col l3 m6 s12 works-block">
+          <p>Application Design</p>
+          <img src="images/works-2.jpg" class="img-responsive" alt="FOLIO AMARLAL"> </div>
+        <div class="col l3 m6 s12 works-block">
+          <p>Photo Manipulation</p>
+          <img src="images/works-3.jpg" class="img-responsive" alt="FOLIO AMARLAL"> </div>
+        <div class="col l3 m6 s12 works-block">
+          <p>Illustrations</p>
+          <img src="images/works-4.jpg" class="img-responsive" alt="FOLIO AMARLAL"> </div>
+      </div>
+      <div class="work-pop-container worksModal transform" style="">
+        <div class="work-pop">
+          <div class="row">
+            <h4 class="col s12">Website Design <i class="fa fa-remove pull-right worksModalCloseBtn" style="font-size: 20px;cursor: pointer;" > </i> </h4>
+          </div>
+          <div class="row">
+            <div class="work-item-block">
+              <div class="col l3 m6 s12 work-items">
+                <p>Dashboard</p>
+                <a href="#portfolio"><img src="images/web-designs/web-a.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a></div>
+              <div class="col l3 m6 s12 work-items">
+                <p>Toyota U trust</p>
+                <a href="#portfolio"><img src="images/web-designs/web-b.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a> </div>
+              <div class="col l3 m6 s12 work-items">
+                <p>Manpower Hiring - Template</p>
+                <a href="web-site/manpower.html"><img src="images/web-designs/web-c.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a> </div>
+              <div class="col l3 m6 s12 work-items">
+                <p>My Folio</p>
+                <a href="web-site/myfolio.html"><img src="images/web-designs/web-d.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a> </div>
+              <div class="col l3 m6 s12 work-items">
+                <p>Toyota Bharat</p>
+                <a href="#portfolio"><img src="images/web-designs/web-e.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a> </div>
+              <div class="col l3 m6 s12 work-items">
+                <p>Dashboard</p>
+                <a href="#portfolio"><img src="images/web-designs/web-f.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="work-pop-container worksModal transform" style="">
+        <div class="work-pop">
+          <div class="row">
+            <h4 class="col s12">Application Design<i class="fa fa-remove pull-right worksModalCloseBtn" style="font-size: 20px;cursor: pointer;" > </i> </h4>
+          </div>
+          <div class="row">
+            <div class="work-item-block">
+              <div class="col l3 m6 s12 work-items">
+                <p>Dashboard</p>
+                <a href="#portfolio"><img src="images/app-designs/app-a.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="work-pop-container worksModal transform" style="">
+        <div class="work-pop">
+          <div class="row">
+            <h4 class="col s12">Photo Manipulation<i class="fa fa-remove pull-right worksModalCloseBtn" style="font-size: 20px;cursor: pointer;" > </i> </h4>
+          </div>
+          <div class="row">
+            <div class="work-item-block">
+              <div class="col l3 m6 s12 work-items img-lg">
+                <p>Dashboard</p>
+                <a data-lg-img="images/photomanipulation/img-lg/manipulation-a.jpg"><img src="images/photomanipulation/manipulation-a.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a></div>
+              <div class="col l3 m6 s12 work-items img-lg">
+                <p>Toyota U trust</p>
+                <a data-lg-img="images/photomanipulation/img-lg/manipulation-b.png"><img src="images/photomanipulation/manipulation-b.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="work-pop-container worksModal transform" style="">
+        <div class="work-pop">
+          <div class="row">
+            <h4 class="col s12">Illustrations<i class="fa fa-remove pull-right worksModalCloseBtn" style="font-size: 20px;cursor: pointer;" > </i> </h4>
+          </div>
+          <div class="row">
+            <div class="work-item-block">
+              <div class="col l3 m6 s12 work-items">
+                <p>Dashboard</p>
+                <a href="#portfolio"><img src="images/illustration/illust-a.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a></div>
+              <div class="col l3 m6 s12 work-items">
+                <p>Toyota U trust</p>
+                <a href="#portfolio"><img src="images/illustration/illust-b.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a> </div>
+              <div class="col l3 m6 s12 work-items">
+                <p>Manpower Hiring - Template</p>
+                <a href="#portfolio"><img src="images/illustration/illust-c.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a> </div>
+              <div class="col l3 m6 s12 work-items">
+                <p>My Folio</p>
+                <a href="web-site/myfolio.html"><img src="images/illustration/illust-d.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a> </div>
+              <div class="col l3 m6 s12 work-items">
+                <p>Toyota Bharat</p>
+                <a href="#portfolio"><img src="images/illustration/illust-e.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a> </div>
+              <div class="col l3 m6 s12 work-items">
+                <p>Dashboard</p>
+                <a href="#portfolio"><img src="images/illustration/illust-f.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a> </div>
+                <div class="col l3 m6 s12 work-items">
+                <p>Dashboard</p>
+                <a href="#portfolio"><img src="images/illustration/illust-g.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a> </div>
+                <div class="col l3 m6 s12 work-items">
+                <p>Dashboard</p>
+                <a href="#portfolio"><img src="images/illustration/illust-h.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a> </div>
+                <div class="col l3 m6 s12 work-items">
+                <p>Dashboard</p>
+                <a href="#portfolio"><img src="images/illustration/illust-i.jpg" class="img-responsive" alt="FOLIO AMARLAL"></a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 m6 s12">
+          <h1>Contact</h1>
+          <div class="col s12">
+            <p>Kozhikode, Kerala, India<br>
+              673633<br>
+              <br>
+              <a href="tel:+919400165470">+91 94001 65470</a><br>
+              <br>
+              <a href="mailto:amarlal116@gmail.com">amarlal116@gmail.com</a></p>
+          </div>
+          <div class="col l6 m6 s12">
+            <input type="text" placeholder="Name" />
+          </div>
+          <div class="col l6 m6 s12">
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="col s12">
+            <textarea placeholder="Message" ></textarea>
+            <a href="#" class="btn default-btn btn-fill">send</a>
+          </div>
+          <footer class="col s12"> &copy; 2018 Masked Jocker </footer>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="light-box">
+  <i class="fa fa-remove pull-right lbClose"> </i>
+  	<img class="lbDisplayImage" src="#" alt="Big Images">
+  	<i class="fa fa-angle-left lbPrev" aria-hidden="true"></i>
+  	<i class="fa fa-angle-right lbNext" aria-hidden="true"></i>
+  </div>
+  <script>
+	var activeLightBoxDiv;
+	var activeImgDiv;
+	var imgInDisplay;
+   	$(".img-lg").click(function(){
+		activeLightBoxDiv = $(this).parent();
+		activeImgDiv = $(this);
+		$(".light-box").fadeIn();
+		var clickedImage = $(this).find("a").data("lg-img");
+		imgInDisplay = clickedImage;
+        $(".light-box .lbDisplayImage").attr("src",clickedImage);
+	});
+	$(".lbClose").click(function(){
+		$(".light-box").fadeOut();
+	});
+	  
+	$(".lbNext").click(function(){
+		 var imgSource = activeImgDiv.next(".img-lg").find("a").data("lg-img");
+		 if(imgInDisplay.match(imgSource)){
+		  imgSource = activeLightBoxDiv.find(".img-lg a").data("lg-img");
+		  activeImgDiv = activeLightBoxDiv.find("img-lg").eq(0);
+		 }
+		 else{
+		  activeImgDiv = activeImgDiv.next(".img-lg");
+		 }
+		 $(".light-box .lbDisplayImage").attr("src",imgSource);
+	});
+	$(".lbPrev").click(function(){
+		var imgSource = activeImgDiv.prev(".img-lg").find("a").data("lg-img");
+		activeImgDiv = activeImgDiv.prev(".img-lg");
+		$(".light-box .lbDisplayImage").attr("src",imgSource);
+	});
+	
+  </script>
+</main>
+
+<!--JavaScript at end of body for optimized loading--> 
+
+<script type="text/javascript" src="js/materialize.min.js"></script> 
+
+<script>
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+     
+        var target = $(this.hash);
+       
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        
+      }
+    });
+  });
+	</script> 
+<script>
+	
+var worksBlock = document.querySelectorAll('.works-block');
+var worksModalCloseBtn = document.querySelectorAll('.worksModalCloseBtn');
+var worksModal = document.querySelectorAll('.worksModal');
+		
+for( var i = 0; i < worksBlock.length; i++){
+   worksBlock[i].setAttribute('data-index', i);
+   worksBlock[i].addEventListener('click', function(){
+     var index =  this.getAttribute('data-index');
+	   
+	   modelPopUpFn(index);
+   });
+}
+	
+	function modelPopUpFn(index){
+		
+	
+		console.log(worksModal[index]);
+		worksModal[index].classList.add("transform-active");
+
+		worksModalCloseBtn[index].addEventListener('click', function(){
+			worksModal[index].classList.remove("transform-active");
+		})
+		
+	}
+	
+	</script>
+	<script>
+	
+	
+	
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+		
+		$(".dropdown-trigger").dropdown();
+	</script>
+</body>
+</html>
