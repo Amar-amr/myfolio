@@ -888,3 +888,11 @@ section.manpower-moc {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     width: 130px;
 }
+@media (max-width:600px){
+	
+.bubble-box {
+    top: -41px;
+
+}
+a.arrow-down {display: none;}
+	}
