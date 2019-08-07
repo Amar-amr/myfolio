@@ -116,7 +116,7 @@
             <h3>Work Experience</h3>
             <p><strong>Currently Working :</strong> UI/UX Designer , Renaissance Technologies Pvt. Ltd
               (2017 Apr Onwards)</p>
-            <a href="images/My-Folio.pdf" download class="btn btn-black pull-right">Download CV</a> </div>
+            <a href="images/arrow-down-34x34.png" download class="btn btn-black pull-right">Download CV</a> </div>
         </div>
       </div>
     </div>
@@ -272,16 +272,29 @@
               <br>
               <a href="mailto:amarlal116@gmail.com">amarlal116@gmail.com</a></p>
           </div>
+          <form action="https://mailthis.to/amarlal116@gmail.com" encType="multipart/form-data" method="POST">
           <div class="col l6 m6 s12">
-            <input type="text" placeholder="Name" />
-          </div>
+           <input type="text" name="name" placeholder="Full Name">
+			</div>
           <div class="col l6 m6 s12">
-            <input type="text" placeholder="Email" />
+            <input type="email" name="_replyto" placeholder="E-mail ID">
           </div>
           <div class="col s12">
-            <textarea placeholder="Message" ></textarea>
-            <a href="#" class="btn default-btn btn-fill">send</a>
+            <textarea placeholder="Message" name="message"></textarea>
+            <input type="hidden" name="_subject" value="Contact form submitted">
+    <input type="hidden" name="_after" value="https://amar-amr.github.io/myfolio">
+    			<input type="hidden" name="_honeypot" value="">
+<!--<input type="hidden" name="_confirmation" value="Tahnsk">-->
+         	 
+         	 
+         	 </div>
+          <div class="col s8">
+          	 <input type="file" name="file" placeholder="Attachments (optional)">
           </div>
+           <div class="col s4">
+            <input type="submit" value="Send" class="btn default-btn btn-fill"> 
+          </div>
+           </form>
           <footer class="col s12"> &copy; 2018 Masked Jocker </footer>
         </div>
       </div>
@@ -298,9 +311,11 @@
 	var activeLightBoxDiv;
 	var activeImgDiv;
 	var imgInDisplay;
+	  var childCount = 0;
    	$(".img-lg").click(function(){
 		activeLightBoxDiv = $(this).parent();
 		activeImgDiv = $(this);
+		childCount = activeLightBoxDiv.find("img-lg").length;
 		$(".light-box").fadeIn();
 		var clickedImage = $(this).find("a").data("lg-img");
 		imgInDisplay = clickedImage;
@@ -312,9 +327,11 @@
 	  
 	$(".lbNext").click(function(){
 		 var imgSource = activeImgDiv.next(".img-lg").find("a").data("lg-img");
+		
 		 if(imgInDisplay.match(imgSource)){
 		  imgSource = activeLightBoxDiv.find(".img-lg a").data("lg-img");
-		  activeImgDiv = activeLightBoxDiv.find("img-lg").eq(0);
+			
+		  //activeImgDiv = activeLightBoxDiv.find("img-lg").eq(0);
 		 }
 		 else{
 		  activeImgDiv = activeImgDiv.next(".img-lg");
