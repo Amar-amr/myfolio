@@ -481,13 +481,14 @@ h2 {
 .contact a{
 	color: #fff;
 }
-input[type="text"], textarea {
+input[type="text"], input[type="email"], input[type="file"], textarea {
     border: 1px solid #fff !important;
-    padding: 015px !important;
+    padding: 15px !important;
     box-sizing: border-box !important;
     margin-bottom: 20px !important;
     color: #fff !important;
     background-color: rgba(255, 255, 255, 0.20) !important;
+    width: 100%;
 }
 
 textarea {
@@ -896,3 +897,8 @@ section.manpower-moc {
 }
 a.arrow-down {display: none;}
 	}
+	input.btn.default-btn.btn-fill {
+    width: 100%;
+    padding: 5.5px !important;
+    height: auto;
+}
