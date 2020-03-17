@@ -10,11 +10,8 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/owl.theme.default.min.css" media="screen,projection" />
-
     <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" media="screen,projection" />
-
-
     <!--Fav icon-->
     <link rel="icon" href="images/favicon.ico">
     <style>
@@ -50,13 +47,10 @@
             </ul>
         </div>
     </nav>
-
     <ul id="dropdown1" class="dropdown-content">
         <li><a href="#myFolio" class="drp-btn-">My Folio</a></li>
         <li><a href="#skills">Skills</a></li>
     </ul>
-
-
     <ul id="mobile-demo" class="sidenav">
         <li><a href="index.html">Home</a></li>
         <li class="line-bw dropdown-trigger" href="#!" data-target="dropdown2">
@@ -104,7 +98,7 @@
                 </div>
             </div>
         </section>
-        <section class="blog-hrs">
+        <!-- <section class="blog-hrs">
             <div class="container">
                 <div class="row">
                     <div class="col s12">
@@ -148,17 +142,11 @@
                         </div>
                     </div>
                 </div>
-                <!-- lightbox -->
-
-
-
             </div>
-
-        </section>
+        </section> -->
         <section class="blog-vdo margin-50">
             <div class="container">
                 <div class="row">
-                    <!--<video></video>-->
                     <div class="col s6">
                         <img src="images/blog/blog-vdo.png" alt="Video" class="img-responsive" />
                     </div>
@@ -173,23 +161,81 @@
                 </div>
             </div>
         </section>
-
         <section class="blog-recent">
             <div class="container">
                 <div class="row">
-                    <div class="col m6 s12">
-                        <div class="recent-item">
-                            <div class="recent-img">
-                                <img src="images/blog/item-1.png" alt="Toyota U Trust" class="img-responsive">
+                    <div class="col s12">
+                        <h1>Recent Works</h1>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col s12">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="col s12">
+                                    <div class="recent-item">
+                                        <div class="recent-img">
+                                            <img src="images/blog/item-1.png" alt="Toyota U Trust" class="img-responsive">
+                                        </div>
+                                        <div class="recent-itm-content">
+                                            <p class="itm-category">Web designing</p>
+                                            <p class="itm-name">Toyota U Trsut</p>
+                                            <p class="itm-view"><a href="https://www.toyotautrust.in/" target="_blank">www.toyotautrust.in</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
-                            <div class="recent-itm-content">
-                                <p class="itm-category">Web designing</p>
-                                <p class="itm-name">Toyota U Trsut</p>
-                                <p class="itm-view"><a href="https://www.toyotautrust.in/" target="_blank">www.toyotautrust.in</a></p>
+                            <div class="item">
+                                <div class="col s12">
+                                    <div class="recent-item">
+                                        <div class="recent-img">
+                                            <img src="images/blog/item-1.png" alt="Toyota U Trust" class="img-responsive">
+                                        </div>
+                                        <div class="recent-itm-content">
+                                            <p class="itm-category">Web designing</p>
+                                            <p class="itm-name">Toyota U Trsut</p>
+                                            <p class="itm-view"><a href="https://www.toyotautrust.in/" target="_blank">www.toyotautrust.in</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="item">
+                                <div class="col s12">
+                                    <div class="recent-item">
+                                        <div class="recent-img">
+                                            <img src="images/blog/item-1.png" alt="Toyota U Trust" class="img-responsive">
+                                        </div>
+                                        <div class="recent-itm-content">
+                                            <p class="itm-category">Web designing</p>
+                                            <p class="itm-name">Toyota U Trsut</p>
+                                            <p class="itm-view"><a href="https://www.toyotautrust.in/" target="_blank">www.toyotautrust.in</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="item">
+                                <div class="col s12">
+                                    <div class="recent-item">
+                                        <div class="recent-img">
+                                            <img src="images/blog/item-1.png" alt="Toyota U Trust" class="img-responsive">
+                                        </div>
+                                        <div class="recent-itm-content">
+                                            <p class="itm-category">Web designing</p>
+                                            <p class="itm-name">Toyota U Trsut</p>
+                                            <p class="itm-view"><a href="https://www.toyotautrust.in/" target="_blank">www.toyotautrust.in</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
 
@@ -203,12 +249,11 @@
     <script>
         $(function() {
             $('a[href*="#"]:not([href="#"])').click(function() {
-
                 var target = $(this.hash);
-
                 if (target.length) {
                     $('html, body').animate({
                         scrollTop: target.offset().top
+
                     }, 1000);
                     return false;
                 }
@@ -219,26 +264,20 @@
         var worksBlock = document.querySelectorAll('.works-block');
         var worksModalCloseBtn = document.querySelectorAll('.worksModalCloseBtn');
         var worksModal = document.querySelectorAll('.worksModal');
-
         for (var i = 0; i < worksBlock.length; i++) {
             worksBlock[i].setAttribute('data-index', i);
             worksBlock[i].addEventListener('click', function() {
                 var index = this.getAttribute('data-index');
-
                 modelPopUpFn(index);
             });
         }
 
         function modelPopUpFn(index) {
-
-
             console.log(worksModal[index]);
             worksModal[index].classList.add("transform-active");
-
             worksModalCloseBtn[index].addEventListener('click', function() {
                 worksModal[index].classList.remove("transform-active");
             })
-
         }
     </script>
     <script>
@@ -246,13 +285,10 @@
             var elems = document.querySelectorAll('.sidenav');
             var instances = M.Sidenav.init(elems);
         });
-
         // Or with jQuery
-
         $(document).ready(function() {
             $('.sidenav').sidenav();
         });
-
         $(".dropdown-trigger").dropdown();
     </script>
     <script>
@@ -267,11 +303,11 @@
                         nav: true
                     },
                     600: {
-                        items: 3,
+                        items: 2,
                         nav: false
                     },
                     1000: {
-                        items: 5,
+                        items: 2,
                         nav: true,
                         loop: false,
                         margin: 20
@@ -281,7 +317,6 @@
         })
     </script>
     <!-- light Box  -->
-
 </body>
 
 </html>
