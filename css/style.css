@@ -1,20 +1,25 @@
-body{
-	font-family: 'Poppins', sans-serif;
-	color: #555;
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #555;
 }
+
  ::-webkit-scrollbar-track {
- background-color: #F5F5F5;
+    background-color: #F5F5F5;
 }
+
  ::-webkit-scrollbar {
- width: 10px;
- background-color: #F5F5F5;
+    width: 10px;
+    background-color: #F5F5F5;
 }
+
  ::-webkit-scrollbar-thumb {
- background-color: #999;
+    background-color: #999;
 }
+
 .container {
     width: 83%;
 }
+
 .brand-logo span {
     display: inline-block;
     width: 100%;
@@ -36,7 +41,16 @@ body{
     margin: 10px 10px;
 }
 
-#nav-mobile li.line-bw:after {content: "";width: 1px;height: 15px;background-color: #555;position: absolute;top: 0;bottom: 0;margin: auto;left: 0;
+#nav-mobile li.line-bw:after {
+    content: "";
+    width: 1px;
+    height: 15px;
+    background-color: #555;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
 }
 
 #nav-mobile li {
@@ -55,35 +69,49 @@ nav {
     top: 0;
     z-index: 2;
 }
-nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+
+nav,
+nav .nav-wrapper i,
+nav a.sidenav-trigger,
+nav a.sidenav-trigger i {
     height: 69px;
-	line-height: 69px;}
-@media (max-width:600px){
-	nav {
-    position: initial;
+    line-height: 69px;
 }
+
+@media (max-width:600px) {
+    nav {
+        position: initial;
+    }
 }
+
+
 /*=============================================================
 ========================   Home  ==============================
 =============================================================*/
-.img-responsive{width: 100%;}
+
+.img-responsive {
+    width: 100%;
+}
+
 main.container-fluid {
     margin-top: 69px;
 }
-@media (max-width:600px){
-	main.container-fluid {
-    margin-top: 0;
+
+@media (max-width:600px) {
+    main.container-fluid {
+        margin-top: 0;
+    }
 }
+
+.banner {
+    background-image: url(../images/banner-1920x842.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 90vh;
 }
-.banner{
-	background-image: url(../images/banner-1920x842.jpg);
-	background-repeat:no-repeat;
-	background-position: center;
-	background-size: cover;
-	width: 100%;
-	min-height: 90vh;
-	
-}
+
 .profile-card {
     max-width: 400px;
     overflow: hidden;
@@ -100,10 +128,12 @@ main.container-fluid {
     z-index: 0;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
 }
+
 .brand-name {
     float: left;
     padding-left: 25px;
 }
+
 .brand-name p {
     display: inline-block;
     font-size: 24px;
@@ -118,6 +148,7 @@ main.container-fluid {
     font-size: 16px;
     font-weight: 300;
 }
+
 .social-icons {
     float: right;
     margin-top: 3rem;
@@ -133,28 +164,33 @@ main.container-fluid {
 .social-icons i.fa-instagram {
     margin-right: 0;
 }
+
 .social-icons i.fa.fa-facebook {
     font-size: 24px;
 }
+
 a.arrow-down {
     position: absolute;
     bottom: 3rem;
     right: 4rem;
 }
+
+
 /*====================================================
 =======================MY Folio=======================
 ====================================================*/
 
-.my-folio{
-	background-image: url(../images/section-bg-1920x940.jpg);
-	background-repeat:no-repeat;
-	background-position: center;
-	background-size: cover;
-	width: 100%;
-	min-height: 100vh;
-	padding: 1rem 0;
-	background-attachment: fixed;
+.my-folio {
+    background-image: url(../images/section-bg-1920x940.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding: 1rem 0;
+    background-attachment: fixed;
 }
+
 h1 {
     margin: 0;
     font-size: 57px;
@@ -169,120 +205,137 @@ h1 {
     font-size: 15px;
     margin: 0;
 }
+
 fieldset {
-  padding: 0;
-  margin: 0;
-  border: none;
-  position: relative;
+    padding: 0;
+    margin: 0;
+    border: none;
+    position: relative;
 }
+
 legend {
-  padding: 0;
-  border: 0;
+    padding: 0;
+    border: 0;
 }
+
 @-webkit-keyframes progress-bar-stripes {
-  from {
-    background-position: 40px 0;
-  }
-  to {
-    background-position: 0 0;
-  }
+    from {
+        background-position: 40px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
 }
+
 @-o-keyframes progress-bar-stripes {
-  from {
-    background-position: 40px 0;
-  }
-  to {
-    background-position: 0 0;
-  }
+    from {
+        background-position: 40px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
 }
+
 @keyframes progress-bar-stripes {
-  from {
-    background-position: 40px 0;
-  }
-  to {
-    background-position: 0 0;
-  }
+    from {
+        background-position: 40px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
 }
+
 .progress {
-  height: 5px;
-  margin-top: 0;
-  margin-bottom: 20px;
-  overflow: hidden;
-  background-color: #ddd;
-  border-radius: 0;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    height: 5px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #ddd;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
 }
+
 .progress-bar {
-  float: left;
-  width: 0;
-  height: 100%;
-  font-size: 12px;
-  position: relative;
-  line-height: 20px;
-  color: #fff;
-  text-align: center;
-  background-color: #555;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
-  -webkit-transition: width .6s ease;
-  -o-transition: width .6s ease;
-  transition: width .6s ease;
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    position: relative;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #555;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
 }
 
 .progress-striped .progress-bar,
 .progress-bar-striped {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-  background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-  -webkit-background-size: 40px 40px;
-          background-size: 40px 40px;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;
 }
+
 .progress.active .progress-bar,
 .progress-bar.active {
-  -webkit-animation: progress-bar-stripes 2s linear infinite;
-       -o-animation: progress-bar-stripes 2s linear infinite;
-          animation: progress-bar-stripes 2s linear infinite;
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    -o-animation: progress-bar-stripes 2s linear infinite;
+    animation: progress-bar-stripes 2s linear infinite;
 }
+
 .progress-bar-success {
-  background-color: #5cb85c;
+    background-color: #5cb85c;
 }
+
 .progress-striped .progress-bar-success {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-  background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
+
 .progress-bar-info {
-  background-color: #5bc0de;
+    background-color: #5bc0de;
 }
+
 .progress-striped .progress-bar-info {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-  background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
+
 .progress-bar-warning {
-  background-color: #f0ad4e;
+    background-color: #f0ad4e;
 }
+
 .progress-striped .progress-bar-warning {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-  background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
+
 .progress-bar-danger {
-  background-color: #d9534f;
+    background-color: #d9534f;
 }
+
 .progress-striped .progress-bar-danger {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-  background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
+
 .progress-block legend {
     font-weight: 600;
     font-size: 18px;
     color: #999;
     margin-bottom: 10px;
-
 }
+
 .margin-50 {
     margin-top: 50px;
 }
@@ -291,6 +344,7 @@ legend {
     margin-left: -15px;
     margin-right: -15px;
 }
+
 .bubble-box {
     display: inline-block;
     width: 50px;
@@ -307,12 +361,15 @@ legend {
 .right-max {
     left: 85.5%;
 }
+
 .right-medium {
     left: 75.5%;
 }
+
 .right-low {
     left: 65.5%;
 }
+
 .bubble-box:after {
     content: "";
     width: 0;
@@ -326,6 +383,7 @@ legend {
     right: 0;
     margin: auto;
 }
+
 .bubble-box:before {
     content: "";
     width: 12px;
@@ -339,6 +397,7 @@ legend {
     right: 0;
     margin: auto;
 }
+
 .xprnc-card {
     background-color: #fff;
     box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.30);
@@ -352,12 +411,14 @@ legend {
     font-weight: 300;
     margin-bottom: 25px;
 }
+
 h3 {
     margin-top: 0;
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 15px;
 }
+
 .btn-black {
     background-color: #333;
 }
@@ -374,19 +435,22 @@ h3 {
 .btn-black:hover {
     background-color: #555;
 }
+
+
 /*====================================================
 =======================Skills=======================
 ====================================================*/
 
-.skills{
-	background-image: url(../images/skills-bg.jpg);
-	background-repeat:no-repeat;
-	background-position: center;
-	background-size: 100%;
-	width: 100%;
-	min-height: 90vh;
-	padding: 10% 0;
+.skills {
+    background-image: url(../images/skills-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    min-height: 90vh;
+    padding: 10% 0;
 }
+
 .creative {
     text-align: right;
 }
@@ -406,82 +470,94 @@ h2 {
     font-size: 15px;
     font-weight: 400;
 }
-@media(max-width:600px){
-	.skills{
-		background-size: contain;
-		text-align: center;
-	}
-	.creative {
-    text-align: center;
-}
-	h1 {padding-top: 40px;font-size: 47px;}
 
-.profile-card {
-    max-width: 340px;
-    min-height: 200px;
-    max-height: 360px;
-    bottom: 0;
-    margin: auto;
-}
-	.social-icons {
-    padding-right: 15px;
+@media(max-width:600px) {
+    .skills {
+        background-size: contain;
+        text-align: center;
+    }
+    .creative {
+        text-align: center;
+    }
+    h1 {
+        padding-top: 40px;
+        font-size: 47px;
+    }
+    .profile-card {
+        max-width: 340px;
+        min-height: 200px;
+        max-height: 360px;
+        bottom: 0;
+        margin: auto;
+    }
+    .social-icons {
+        padding-right: 15px;
+    }
+    .brand-name {
+        padding-left: 15px;
+    }
+    .brand-logo p {
+        font-size: 18px;
+    }
+    .brand-logo span {
+        font-size: 13px;
+    }
+    .my-folio {
+        padding-bottom: 1rem;
+    }
 }
 
-.brand-name {
-    padding-left: 15px;
-}
 
-.brand-logo p {
-    font-size: 18px;
-}
-
-.brand-logo span {
-    font-size: 13px;
-}
-	.my-folio{
-		padding-bottom: 1rem;}
-}
 /*====================================================
 =======================Works=======================
 ====================================================*/
-.works{
-	min-height: 100vh;
+
+.works {
+    min-height: 100vh;
 }
-.works img{
-	    transition: 0.5s;
-	    cursor: pointer;
-	    border: 1px solid #f1f1f1;
+
+.works img {
+    transition: 0.5s;
+    cursor: pointer;
+    border: 1px solid #f1f1f1;
 }
+
 .works img:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.2);
 }
+
 .works p {
     font-size: 15px;
     margin-bottom: 10px;
     font-weight: 400;
 }
+
+
 /*====================================================
 =======================Contact=======================
 ====================================================*/
-.contact{
-	background-image: url(../images/contact-bg.jpg);
-	background-repeat:no-repeat;
-	background-position: 75% center;
-	background-size: cover;
-	width: 100%;
-	min-height: 100vh;
-	margin-bottom: -20px;
-	padding-bottom: 1rem;
 
-
-
-	background-attachment: fixed;
+.contact {
+    background-image: url(../images/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 75% center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    margin-bottom: -20px;
+    padding-bottom: 1rem;
+    background-attachment: fixed;
 }
-.contact a{
-	color: #fff;
+
+.contact a {
+    color: #fff;
 }
-input[type="text"], input[type="email"], input[type="file"], textarea {
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+textarea {
     border: 1px solid #fff !important;
     padding: 15px !important;
     box-sizing: border-box !important;
@@ -495,21 +571,28 @@ textarea {
     resize: none;
     min-height: 150px;
 }
-input[type="text"]:focus, textarea:focus {
+
+input[type="text"]:focus,
+textarea:focus {
     outline: none;
     border: 1px solid #c1c1c1 !important;
     box-shadow: inherit !important;
 }
+
 .contact p {
     margin-bottom: 15px;
-	color: #fff;
+    color: #fff;
 }
-.clearfix{
-	clear: both;
+
+.clearfix {
+    clear: both;
 }
+
+
 /*==========================================================
 POP UP
 ==========================================================*/
+
 .mask {
     position: fixed;
     top: 0;
@@ -521,6 +604,7 @@ POP UP
     height: 100%;
     display: inline-block;
 }
+
 .work-pop {
     position: absolute;
     background-color: #fff;
@@ -537,13 +621,19 @@ POP UP
     margin: auto;
     z-index: 1;
 }
-.work-items{
+
+.work-items {
     max-height: 310px;
     overflow: hidden;
     margin-bottom: 1rem;
 }
 
-h4 {border-bottom: 1px solid #eee;margin: 0;padding: 0.75rem !important;}
+h4 {
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    padding: 0.75rem !important;
+}
+
 .work-pop-container {
     position: fixed;
     width: 100%;
@@ -558,6 +648,7 @@ h4 {border-bottom: 1px solid #eee;margin: 0;padding: 0.75rem !important;}
     border-top-right-radius: 30px;
     box-shadow: 0px -5px 20px 0 rgba(0, 0, 0, 0.5);
 }
+
 .work-item-block {
     display: inline-block;
     max-height: 72.9vh;
@@ -565,23 +656,28 @@ h4 {border-bottom: 1px solid #eee;margin: 0;padding: 0.75rem !important;}
     overflow-x: auto;
     width: 100%;
 }
+
 a.sidenav-trigger {
     float: right;
     color: #555;
     font-size: 30px;
 }
+
 .dropdown-content {
     top: 70px !important;
     min-width: 150px;
 }
-@media (max-width:992px){
-	.dropdown-content {
-    top: 100px !important;
-	}
-	.bubble-box {
-    margin-left: -8px;
-	}
+
+@media (max-width:992px) {
+    .dropdown-content {
+        top: 100px !important;
+    }
+    .bubble-box {
+        margin-left: -8px;
+    }
 }
+
+
 /*============================================
 -----------------------------portfolio--------
 ============================================*/
@@ -595,6 +691,7 @@ section.port-banner {
 .port-head {
     color: #fff;
 }
+
 .port-head p {
     font-size: 18px;
     text-transform: uppercase;
@@ -609,47 +706,54 @@ section.port-banner {
     font-weight: 400;
     transition: 1s;
 }
+
 .mock-mac {
     position: absolute;
     top: 95px;
 }
+
 .default-btn:hover {
     background-color: #fff;
     color: #222;
     border: 2px solid #555;
 }
-@media (max-width:992px){
-.mock-mac{
-	top: 320px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    max-width: 500px;
+
+@media (max-width:992px) {
+    .mock-mac {
+        top: 320px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-width: 500px;
+    }
+    section.port-intro {
+        margin-top: 170px;
+    }
 }
-section.port-intro {
-    margin-top: 170px;
+
+@media (max-width:600px) {
+    .mock-mac {
+        top: 250px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-width: 350px;
+        width: 90%;
+    }
+    section.port-intro {
+        margin-top: 200px;
+    }
 }
-}
-@media (max-width:600px){
-.mock-mac{
-	top: 250px;
-	left: 0;
-	right: 0;
-	margin: auto;
-	max-width: 350px;
-	width: 90%;
-}
-section.port-intro {
-    margin-top: 200px;
-}
-}
+
 h1.port-head-intro {
     padding-top: 15px;
 }
+
 .port-intro p {
     text-align: justify;
     font-size: 14px;
 }
+
 section.template-moc {
     min-height: 530px;
     background-color: #777;
@@ -662,90 +766,112 @@ section.template-moc {
     line-height: 0;
     margin-top: -350px;
 }
-.mobile-view {margin-top: -50px;}
-.invert-white {border: 2px solid #555;color: #555;width: 125px;}
-.explore-btn{
-	min-height: 180px;
-	padding-top: 5rem;
-	text-align: right;
-}
-.template-moc .btn {margin-top: 15px;}
 
-@media (max-width:1024px){
-.md-vis-none{
-	display: none;
+.mobile-view {
+    margin-top: -50px;
 }
 
-.port-head h1 {
-    padding-top: 80px;
-}
-.desk-view.sm-vis-none {
-    margin-top: -250px;
+.invert-white {
+    border: 2px solid #555;
+    color: #555;
+    width: 125px;
 }
 
-section.template-moc {
-    margin-top: 250px;
-	    padding-bottom: 1rem;
+.explore-btn {
+    min-height: 180px;
+    padding-top: 5rem;
+    text-align: right;
 }
+
+.template-moc .btn {
+    margin-top: 15px;
 }
-@media (max-width:600px){
-.nav-wrapper.container {
-    width: 90%;
+
+@media (max-width:1024px) {
+    .md-vis-none {
+        display: none;
+    }
+    .port-head h1 {
+        padding-top: 80px;
+    }
+    .desk-view.sm-vis-none {
+        margin-top: -250px;
+    }
+    section.template-moc {
+        margin-top: 250px;
+        padding-bottom: 1rem;
+    }
 }
-.sm-vis-none{
-	display: none;
-}
-.md-vis-none{
-	display: block;
-}
-.mobile-view img {
-    max-width: 100% !important;
-    width: inherit;
-}
-section.template-moc {
-    margin-top: 70px;
-}
-.port-head h1 {
-    font-size: 34px;
-}
-	.contact {
-		background-position: 70%;
-		}
+
+@media (max-width:600px) {
+    .nav-wrapper.container {
+        width: 90%;
+    }
+    .sm-vis-none {
+        display: none;
+    }
+    .md-vis-none {
+        display: block;
+    }
+    .mobile-view img {
+        max-width: 100% !important;
+        width: inherit;
+    }
+    section.template-moc {
+        margin-top: 70px;
+    }
+    .port-head h1 {
+        font-size: 34px;
+    }
+    .contact {
+        background-position: 70%;
+    }
 }
 
 .contact h1 {
     color: #fff;
 }
+
 .btn-fill {
     background-color: #fff;
     color: #222 !important;
     text-transform: uppercase;
 }
+
 footer {
     color: #fff;
     margin-top: 1rem;
 }
+
 ul.sidenav {
-        background-image: url(../images/banner-1920x842.jpg);
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
+    background-image: url(../images/banner-1920x842.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 .sidenav li>a {
     background-color: rgba(255, 255, 255, 0.60);
     color: #222;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+
 /*Manpower*/
+
 section.manpower-moc {
     background-color: #FFEB3B;
 }
+
 .port-head-intro i {
     font-size: 18px;
     font-weight: 500;
     text-transform: capitalize;
 }
+
+
 /*Light Box*/
+
 .light-box {
     position: fixed;
     width: 100%;
@@ -754,7 +880,7 @@ section.manpower-moc {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.94);
     z-index: 2;
-	display: none
+    display: none
 }
 
 .light-box img {
@@ -767,14 +893,16 @@ section.manpower-moc {
     max-height: calc(100vh - 150px);
     max-width: 100%;
 }
+
 .light-box i {
     font-size: 30px;
     position: absolute;
     top: 5%;
     right: 5%;
     color: #888;
-	cursor: pointer;
+    cursor: pointer;
 }
+
 .light-box .fa-angle-left {
     left: 10%;
     top: 0;
@@ -783,6 +911,7 @@ section.manpower-moc {
     margin: auto;
     font-size: 4rem;
 }
+
 .light-box .fa-angle-right {
     right: 10%;
     top: 0;
@@ -791,15 +920,24 @@ section.manpower-moc {
     margin: auto;
     font-size: 4rem;
 }
+
+
 /*===========================================================BLOG===============================================================*/
+
 .blog-welcm h1 {
     font-size: 40px;
     padding: 2rem 0 0;
 }
-.blog-welcm p.welcm-note {font-weight: 300;text-align: justify;}
-.blog-welcm  i {
+
+.blog-welcm p.welcm-note {
+    font-weight: 300;
+    text-align: justify;
+}
+
+.blog-welcm i {
     font-weight: 800;
 }
+
 .sm-profile-card {
     background-color: #fff;
     box-shadow: 0 0px 13px 0 rgba(0, 0, 0, 0.10);
@@ -824,6 +962,7 @@ section.manpower-moc {
 .sm-profile-card .social-icons i.fa-facebook {
     font-size: 21px !important;
 }
+
 .pro-img {
     display: inline-block;
 }
@@ -857,10 +996,12 @@ section.manpower-moc {
     position: relative;
     margin-bottom: 2rem;
 }
+
 .blog-vdo h2 {
     font-size: 40px;
     font-weight: 800;
 }
+
 .round-btn {
     text-align: left;
     background-color: #fff;
@@ -880,25 +1021,65 @@ section.manpower-moc {
 .round-btn img {
     margin-right: 10px;
 }
+
 .marginTop-20 {
     margin-top: 20px;
 }
+
 .round-btn:hover {
     background-color: #fff;
     color: #222;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     width: 130px;
 }
-@media (max-width:600px){
-	
-.bubble-box {
-    top: -41px;
 
+@media (max-width:600px) {
+    .bubble-box {
+        top: -41px;
+    }
+    a.arrow-down {
+        display: none;
+    }
 }
-a.arrow-down {display: none;}
-	}
-	input.btn.default-btn.btn-fill {
+
+input.btn.default-btn.btn-fill {
     width: 100%;
     padding: 5.5px !important;
     height: auto;
+}
+
+
+/* Blog Slider */
+
+img.thumbnail-blog {
+    display: inline-block !important;
+    border-radius: 100%;
+    border: 1px solid #ddd;
+    margin: 0;
+}
+
+a.pops-up-toggle {
+    border-radius: 100%;
+    border: 4px solid #000000;
+    display: inline-grid;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:768px) {
+    .blog-hrs .item {
+        text-align: center;
+    }
+}
+
+
+/* Slider Blog */
+
+.blog-recent .item {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.15);
 }
